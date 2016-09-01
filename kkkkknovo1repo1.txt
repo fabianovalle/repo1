@@ -1,0 +1,20 @@
+1 . criei um repo no git.
+2 . clone ele vazio past2.
+3 . entre em past2.
+4 . criei file em past2 add e commit.
+5 . git push pede login e senha e comita na nuvem.
+
+
+#!/bin/bash
+
+-- 1.clonar repo publico, para local.
+git https://github.com/Javix/blog-jsf.git localTemp1
+
+-- 2.clonar do bitbucket.
+git push git@bitbucket.org:UserName:Senha/project-name.git localTemp2
+
+-- 3.Atualizar, unificar projeto em um diretorio e mandar pro bitbucket,
+- atualizado... - jointemp1_temp2
+
+-- 4.Publicar projeto no bitbucket.
+git push git@bitbucket.org:UserName:Senha/project-name.git/wiki localTemp2
